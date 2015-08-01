@@ -1,0 +1,6 @@
+[submodule "xiph/flac"]
+	path = xiph/flac
+	url = git@github.com:xiph/flac.git
+[submodule "xiph/ogg"]
+	path = xiph/ogg
+	url = git@github.com:xiph/ogg.git
