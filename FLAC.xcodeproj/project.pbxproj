@@ -1500,6 +1500,8 @@
 					"-DPRIu64=\\\"llu\\\"",
 					"-DPRIx64=\\\"llx\\\"",
 					"-DFLAC__INTEGER_ONLY_LIBRARY",
+					"-DPACKAGE_VERSION=\\\"bismark\\\"",
+					"-DFLAC__HAS_OGG=1",
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1551,6 +1553,8 @@
 					"-DPRIu64=\\\"llu\\\"",
 					"-DPRIx64=\\\"llx\\\"",
 					"-DFLAC__INTEGER_ONLY_LIBRARY",
+					"-DPACKAGE_VERSION=\\\"bismark\\\"",
+					"-DFLAC__HAS_OGG=1",
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
