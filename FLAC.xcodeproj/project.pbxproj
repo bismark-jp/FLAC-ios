@@ -1007,12 +1007,11 @@
 			};
 			buildConfigurationList = E82E9A041B6B783A0037BE3E /* Build configuration list for PBXProject "FLAC" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
-				English,
 			);
 			mainGroup = E82E9A001B6B783A0037BE3E;
 			productRefGroup = E84D47311B6B78B500389014 /* Products */;
