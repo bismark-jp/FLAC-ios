@@ -1,6 +1,6 @@
 [submodule "xiph/flac"]
 	path = xiph/flac
-	url = git@github.com:xiph/flac.git
+url=git@github.com:bismark-jp/flac.git
 [submodule "xiph/ogg"]
 	path = xiph/ogg
 	url = git@github.com:xiph/ogg.git
