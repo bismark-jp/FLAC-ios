@@ -73,7 +73,6 @@
 		E8566CD81B6B8DF3003702AB /* replaygain_synthesis.c in Sources */ = {isa = PBXBuildFile; fileRef = E84D49161B6B792000389014 /* replaygain_synthesis.c */; };
 		E8566CD91B6B8DFE003702AB /* charset.c in Sources */ = {isa = PBXBuildFile; fileRef = E84D491C1B6B792000389014 /* charset.c */; };
 		E8566CDB1B6B8DFE003702AB /* iconvert.c in Sources */ = {isa = PBXBuildFile; fileRef = E84D49201B6B792000389014 /* iconvert.c */; };
-		E8566CDC1B6B8DFE003702AB /* makemap.c in Sources */ = {isa = PBXBuildFile; fileRef = E84D49241B6B792000389014 /* makemap.c */; };
 		E8566CDD1B6B8DFE003702AB /* utf8.c in Sources */ = {isa = PBXBuildFile; fileRef = E84D49251B6B792000389014 /* utf8.c */; };
 		E8566CE11B6BD4B6003702AB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8566CE01B6BD4B6003702AB /* ViewController.m */; };
 		E8566CE51B6BDED6003702AB /* decode.c in Sources */ = {isa = PBXBuildFile; fileRef = E8566CE41B6BDED6003702AB /* decode.c */; };
@@ -987,7 +986,7 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
-				LastUpgradeCheck = 1530;
+				LastUpgradeCheck = 1600;
 				TargetAttributes = {
 					E84D472F1B6B78B500389014 = {
 						CreatedOnToolsVersion = 6.4;
@@ -1116,7 +1115,6 @@
 				E8566CD81B6B8DF3003702AB /* replaygain_synthesis.c in Sources */,
 				E8566CB61B6B7C42003702AB /* lpc.c in Sources */,
 				E8566CC31B6B7C42003702AB /* stream_decoder.c in Sources */,
-				E8566CDC1B6B8DFE003702AB /* makemap.c in Sources */,
 				E8566CB01B6B7C19003702AB /* crc.c in Sources */,
 				E8566CC41B6B7C42003702AB /* stream_encoder.c in Sources */,
 				E8566CD11B6B8DE6003702AB /* cuesheet.c in Sources */,
@@ -1735,7 +1733,7 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_CFLAGS = "";
-				PRODUCT_BUNDLE_IDENTIFIER = "jp.bismark.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.bismark.FlacTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1786,7 +1784,7 @@
 				);
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_CFLAGS = "";
-				PRODUCT_BUNDLE_IDENTIFIER = "jp.bismark.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.bismark.FlacTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
